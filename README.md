@@ -81,17 +81,17 @@ Based on [Cassowary](https://en.wikipedia.org/wiki/Cassowary_(software)) constra
 # y = a * x + b
 
 ***
-```attribute1 = multiplier * attribute2 + constantant```
+### attribute1 = multiplier * attribute2 + constantant
 
 ***
-```attribute1 = multiplier * attribute2 + constantant```
-```attribute1 >= multiplier * attribute2 + constantant```
-```attribute1 <= multiplier * attribute2 + constantant```
+### attribute1 = multiplier * attribute2 + constantant
+### attribute1 >= multiplier * attribute2 + constantant
+### attribute1 <= multiplier * attribute2 + constantant
 
 ***
-```attribute1 = multiplier * attribute2 + constantant @ priority```
-```attribute1 >= multiplier * attribute2 + constantant @ priority```
-```attribute1 <= multiplier * attribute2 + constantant @ priority```
+### attribute1 = multiplier * attribute2 + constantant @ priority
+### attribute1 >= multiplier * attribute2 + constantant @ priority
+### attribute1 <= multiplier * attribute2 + constantant @ priority
 
 ***
 # Visual formatting language
