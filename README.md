@@ -4,6 +4,7 @@
 
 ***
 ![Presentation QR](image/qrcode.png)
+https://swipe.to/9406ft
 
 ***
 # Main Layout approaches
