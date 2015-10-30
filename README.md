@@ -3,6 +3,9 @@
 #### @xnekoix
 
 ***
+![Presentation QR](/image/qrcode.png)
+
+***
 # Main Layout approaches
 * Springs & Struts
 * Autolayouts
@@ -66,11 +69,40 @@ which was basically an inspiration for [ComponentKit](https://github.com/faceboo
 * not supported anymore (but developers promised some swift implementation)
 * no Interface Builder support
 
+***
 # ComponentKit Debatable
 * objective-c++
 
 ***
 # Apple Autolayouts
+Based on [Cassowary](https://en.wikipedia.org/wiki/Cassowary_(software)) constraint solving toolkit developed by Greg Badros and Alan Borning.
+
+***
+# y = a * x + b
+
+***
+```attribute1 = multiplier * attribute2 + constantant```
+
+***
+```attribute1 = multiplier * attribute2 + constantant
+attribute1 >= multiplier * attribute2 + constantant
+attribute1 <= multiplier * attribute2 + constantant```
+
+***
+```attribute1 = multiplier * attribute2 + constantant @ priority
+attribute1 >= multiplier * attribute2 + constantant @ priority
+attribute1 <= multiplier * attribute2 + constantant @ priority```
+
+***
+# Visual formatting language
+```"H:|-(==10@750)-[button(>=50)]-(>=10,<=10)-|"```
+
+***
+# Content Hugging / Compression Resistance
+```func intrinsicContentSize() -> CGSize```
+
+***
+
 
 ***
 # Apple Autolayouts Pros
@@ -80,7 +112,7 @@ which was basically an inspiration for [ComponentKit](https://github.com/faceboo
 
 ***
 # Apple Autolayouts Cons
-* slower then Springs & Struts (but 60 fps still no problem)
+* slower then Springs & Struts (but 60 fps still not a problem)
 * debug
 
 ***
