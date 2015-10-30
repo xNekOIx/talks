@@ -99,22 +99,58 @@ Based on [Cassowary](https://en.wikipedia.org/wiki/Cassowary_(software)) constra
 
 ***
 # Content Hugging / Compression Resistance
-```func intrinsicContentSize() -> CGSize```
+```
+    override func intrinsicContentSize() -> CGSize {
+        return CGSize(
+            width: 320,
+            height: UIViewNoIntrinsicMetric)
+    }
+```
 
 ***
-
-
-***
-# Apple Autolayouts Pros
-* declarative
-* Interface Builder
-* swift
+H:[view1]-(>=100@500)-[view2]
+H:[view1]-(<=60@499)-[view2] - Still tries to satisfy inequality
 
 ***
-# Apple Autolayouts Cons
-* slower then Springs & Struts
-* debug
+Intrinsic content size 
+  width = 200
+  height = 400
+  
+Transforms to set of constraints
+  H:[view(>=200@(Compression Resistance Priority))]
+  H:[view(<=200@(Hugging Priority))]
+  
+  V:[view(>=400@(Compression Resistance Priority))]
+  V:[view(<=400@(Hugging Priority))]
+  
+***
+# Since iOS 8
+* margin attributes
+* active/inactive
 
 ***
 # StackView
-(linear layout в android)
+
+***
+# Anchors
+
+***
+# UILayoutGuide
+
+***
+# Good Layout principles:
+* Necessity and Sufficiency
+* Adaptivity
+
+***
+# Apple Autolayouts Pros
+* Declarative
+* Interface Builder
+* Swift
+
+***
+# Apple Autolayouts Cons
+* Slower then Springs & Struts
+
+***
+# Debug Session
