@@ -3,7 +3,7 @@
 #### @xnekoix
 
 ***
-![Presentation QR](image/qrcode.png)
+![Presentation QR](images/qrcode.png)
 https://swipe.to/9406ft
 
 ***
