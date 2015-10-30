@@ -181,3 +181,9 @@ You should definately use it.
 ```expr (void)[CATransaction flush]```
 
 Facebook/Chisel
+
+***
+# QA
+
+***
+# Thanks!
