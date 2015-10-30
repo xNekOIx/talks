@@ -95,7 +95,7 @@ Based on [Cassowary](https://en.wikipedia.org/wiki/Cassowary_(software)) constra
 
 ***
 # Visual formatting language
-```"H:|-(==10@750)-[button(>=50)]-(>=10,<=10)-|"```
+"H:|-(==10@750)-[button(>=50)]-(>=10,<=10)-|"
 
 ***
 # Content Hugging / Compression Resistance
