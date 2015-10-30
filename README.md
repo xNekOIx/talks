@@ -125,17 +125,30 @@ Transforms to set of constraints
   
 ***
 # Since iOS 8
-* margin attributes
-* active/inactive
+* Size classes (UITraitCollection)
+* New attributes
+* Activate/Deactivate constraints
+
+***
+# Since iOS 9
+* New attributes
+* UIStackView
+* Anchors
+* UILayoutGuide
 
 ***
 # StackView
+- Android linear layout
+You should definately use it. 
 
 ***
 # Anchors
+- are constraint fabric
 
 ***
 # UILayoutGuide
+* pretty good solution for some layouting problems
+* not supported in Interface Builder
 
 ***
 # Good Layout principles:
@@ -154,3 +167,17 @@ Transforms to set of constraints
 
 ***
 # Debug Session
+```command alias objcpo po -l objc++ -O --```
+```command alias objcexpr expr -l objc++ -O --```
+
+```po view.performSelector("_autolayoutTrace")```
+
+```objcpo [[UIWindow keyWindow] _autolayoutTrace] // prints layouts ambiguity```
+```objcpo [view constraintsAffectingLayoutForAxis:0] // horizontal```
+```objcpo [view constraintsAffectingLayoutForAxis:1] // vertical```
+
+```[view hasAmbiguousLayout] // BOOL```
+```[view exerciseAmbiguityInLayout] // visualizing ambiguity```
+```expr (void)[CATransaction flush]```
+
+Facebook/Chisel
