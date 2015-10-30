@@ -4,7 +4,6 @@
 
 ***
 ![Presentation QR](images/qrcode.png)
-https://swipe.to/9406ft
 
 ***
 # Main Layout approaches
@@ -85,14 +84,14 @@ Based on [Cassowary](https://en.wikipedia.org/wiki/Cassowary_(software)) constra
 ```attribute1 = multiplier * attribute2 + constantant```
 
 ***
-```attribute1 = multiplier * attribute2 + constantant
-attribute1 >= multiplier * attribute2 + constantant
-attribute1 <= multiplier * attribute2 + constantant```
+```attribute1 = multiplier * attribute2 + constantant```
+```attribute1 >= multiplier * attribute2 + constantant```
+```attribute1 <= multiplier * attribute2 + constantant```
 
 ***
-```attribute1 = multiplier * attribute2 + constantant @ priority
-attribute1 >= multiplier * attribute2 + constantant @ priority
-attribute1 <= multiplier * attribute2 + constantant @ priority```
+```attribute1 = multiplier * attribute2 + constantant @ priority```
+```attribute1 >= multiplier * attribute2 + constantant @ priority```
+```attribute1 <= multiplier * attribute2 + constantant @ priority```
 
 ***
 # Visual formatting language
@@ -113,7 +112,7 @@ attribute1 <= multiplier * attribute2 + constantant @ priority```
 
 ***
 # Apple Autolayouts Cons
-* slower then Springs & Struts (but 60 fps still not a problem)
+* slower then Springs & Struts
 * debug
 
 ***
