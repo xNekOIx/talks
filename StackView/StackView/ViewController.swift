@@ -11,11 +11,15 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var constraintsCollection: [NSLayoutConstraint]!
     @IBOutlet var inactiveConstraint: NSLayoutConstraint!
-    @IBOutlet var someView: UIView!
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
     
+//        NSLayoutConstraint.activateConstraints(constraintsCollection)
+        
+//        inactiveConstraint.active = true
+        
+        
     }
 }
 

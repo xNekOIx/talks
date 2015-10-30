@@ -10,6 +10,12 @@ import UIKit
 
 class ResizableCell: UITableViewCell {
     @IBOutlet weak var pewpewLabel: UILabel!
+    
+    override func intrinsicContentSize() -> CGSize {
+        return CGSize(
+            width: 320,
+            height: UIViewNoIntrinsicMetric)
+    }
 }
 
 class PewTableViewController: UITableViewController {

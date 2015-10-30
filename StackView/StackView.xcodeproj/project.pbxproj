@@ -13,6 +13,7 @@
 		22B1D00E1BE01E5C00A18E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1D00D1BE01E5C00A18E90 /* Assets.xcassets */; };
 		22B1D0111BE01E5C00A18E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B1D00F1BE01E5C00A18E90 /* LaunchScreen.storyboard */; };
 		22CE2E071BE2CF8900DA5A28 /* PewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE2E061BE2CF8900DA5A28 /* PewTableViewController.swift */; };
+		22CE2E091BE39CF600DA5A28 /* PewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE2E081BE39CF600DA5A28 /* PewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		22B1D0101BE01E5C00A18E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22B1D0121BE01E5C00A18E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22CE2E061BE2CF8900DA5A28 /* PewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PewTableViewController.swift; sourceTree = "<group>"; };
+		22CE2E081BE39CF600DA5A28 /* PewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				22B1D0061BE01E5C00A18E90 /* AppDelegate.swift */,
 				22B1D0081BE01E5C00A18E90 /* ViewController.swift */,
+				22CE2E081BE39CF600DA5A28 /* PewView.swift */,
 				22CE2E061BE2CF8900DA5A28 /* PewTableViewController.swift */,
 				22B1D00A1BE01E5C00A18E90 /* Main.storyboard */,
 				22B1D00D1BE01E5C00A18E90 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				22B1D0091BE01E5C00A18E90 /* ViewController.swift in Sources */,
 				22B1D0071BE01E5C00A18E90 /* AppDelegate.swift in Sources */,
 				22CE2E071BE2CF8900DA5A28 /* PewTableViewController.swift in Sources */,
+				22CE2E091BE39CF600DA5A28 /* PewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
