@@ -3,7 +3,7 @@
 #### @xnekoix
 
 ***
-![Presentation QR](/image/qrcode.png)
+![Presentation QR](image/qrcode.png)
 
 ***
 # Main Layout approaches
