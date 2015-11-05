@@ -18,8 +18,6 @@ class ViewController: UIViewController {
 //        NSLayoutConstraint.activateConstraints(constraintsCollection)
         
 //        inactiveConstraint.active = true
-        
-        
     }
 }
 

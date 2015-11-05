@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2280B1A11BE68BEE00629BC0 /* TraitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280B1A01BE68BEE00629BC0 /* TraitView.swift */; };
+		228E013B1BE4FBD7005D3C05 /* FloatButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E013A1BE4FBD7005D3C05 /* FloatButtonViewController.swift */; };
 		22B1D0071BE01E5C00A18E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D0061BE01E5C00A18E90 /* AppDelegate.swift */; };
 		22B1D0091BE01E5C00A18E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1D0081BE01E5C00A18E90 /* ViewController.swift */; };
 		22B1D00C1BE01E5C00A18E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B1D00A1BE01E5C00A18E90 /* Main.storyboard */; };
@@ -17,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2280B1A01BE68BEE00629BC0 /* TraitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitView.swift; sourceTree = "<group>"; };
+		228E01391BE40246005D3C05 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		228E013A1BE4FBD7005D3C05 /* FloatButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatButtonViewController.swift; sourceTree = "<group>"; };
 		22B1D0031BE01E5C00A18E90 /* StackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B1D0061BE01E5C00A18E90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22B1D0081BE01E5C00A18E90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,12 +65,15 @@
 			children = (
 				22B1D0061BE01E5C00A18E90 /* AppDelegate.swift */,
 				22B1D0081BE01E5C00A18E90 /* ViewController.swift */,
+				228E01391BE40246005D3C05 /* MyPlayground.playground */,
 				22CE2E081BE39CF600DA5A28 /* PewView.swift */,
 				22CE2E061BE2CF8900DA5A28 /* PewTableViewController.swift */,
+				228E013A1BE4FBD7005D3C05 /* FloatButtonViewController.swift */,
 				22B1D00A1BE01E5C00A18E90 /* Main.storyboard */,
 				22B1D00D1BE01E5C00A18E90 /* Assets.xcassets */,
 				22B1D00F1BE01E5C00A18E90 /* LaunchScreen.storyboard */,
 				22B1D0121BE01E5C00A18E90 /* Info.plist */,
+				2280B1A01BE68BEE00629BC0 /* TraitView.swift */,
 			);
 			path = StackView;
 			sourceTree = "<group>";
@@ -142,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B1D0091BE01E5C00A18E90 /* ViewController.swift in Sources */,
+				2280B1A11BE68BEE00629BC0 /* TraitView.swift in Sources */,
 				22B1D0071BE01E5C00A18E90 /* AppDelegate.swift in Sources */,
 				22CE2E071BE2CF8900DA5A28 /* PewTableViewController.swift in Sources */,
+				228E013B1BE4FBD7005D3C05 /* FloatButtonViewController.swift in Sources */,
 				22CE2E091BE39CF600DA5A28 /* PewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
